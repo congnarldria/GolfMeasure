@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="newPrefix" lang="testcc">
+    <file>go.png</file>
+  </qresource>
+  <qresource prefix="newPrefix" lang="go">
+    <file alias="go">go.png</file>
+  </qresource>
+  <qresource prefix="newPrefix" lang="stop">
+    <file>stop.png</file>
+  </qresource>
+  <qresource prefix="newPrefix" lang="wait">
+    <file alias="wait">wait.png</file>
+  </qresource>
+</RCC>

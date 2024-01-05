@@ -1,0 +1,16 @@
+sudo apt-get remove pycharm
+[sudo] password for user: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+E: Unable to locate package pycharm
+____________________________________________________
+
+sudo apt-get remove pycharm-community-2017.1.4
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+E: Unable to locate package pycharm-community-2017.1.4
+E: Couldn't find any package by glob 'pycharm-community-2017.1.4'
+E: Couldn't find any package by regex 'pycharm-community-2017.1.4'
+
