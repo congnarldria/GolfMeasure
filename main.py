@@ -328,7 +328,7 @@ class algorithm():
             erode = cv2.erode(blur, kernel)
             resource = cv2.dilate(erode, kernel)
             edged = cv2.Canny(resource, self.cannyValMin, self.cannyValMax, apertureSize=3, L2gradient=True)
-            # cv2.imshow("Canny" , edged)
+            #cv2.imshow("Canny" , edged)
             h, w = HeadZone.shape
             integerarray = np.array(out.astype(int))
             maskimg = np.zeros((h, w), dtype=np.uint8)
@@ -424,12 +424,13 @@ class algorithm():
                             # if pt0[0] > 0 and pt0[0] < self.iw and pt0[1] > 0 and pt0[1] < self.ih:
                             #   value = HeadZone[pt0[1],pt0[0]]
                             ptlist.append(np.array([[pt0[0], pt0[1]]]))
-                            if cnt + 9 >= len(contour):
+                            if cnt + 10 >= len(contour):
                                 allList.append(ptlist)
                                 ptlist = []
                         else:
-                            allList.append(ptlist)
-                            ptlist = []
+                            if len(ptlist) > 2:
+                                allList.append(ptlist)
+                                ptlist = []
                         preAngle[1] = preAngle[0]
                         preAngle[0] = Angle
                     cnt = cnt + 1
