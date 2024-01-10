@@ -29,6 +29,7 @@ import queue as qu
 
 
 
+
 class IMG_WIN(QWidget):
     drawing = False
     ui = None

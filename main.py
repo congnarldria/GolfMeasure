@@ -4,8 +4,6 @@
 # see thr calling example at the last few lines
 import math
 import os.path
-from PyQt5 import QtWidgets, QtCore
-from PyQt5.QtGui import QPainter
 import img_view as imgviwer
 import cv2
 import numpy as np
@@ -13,11 +11,6 @@ import pygame
 import json as js
 import os
 import threading
-import queue
-# import emoji
-import time
-import imutils
-from scipy.interpolate import splprep, splev
 
 # calling example
 My_ui = None
