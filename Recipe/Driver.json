@@ -1,1 +1,1 @@
-{"cannyValMax": 150, "cannyValMin": 40, "thresholdValue": 60, "maskAngle": 0, "stdx": 290, "stdy": 171, "cx": 290.0, "cy": 171.0, "cw": 80, "ch": 280, "ix": 650, "iy": 271, "iw": 620, "ih": 345, "lx": 281, "ly": 340, "crin": 142, "crout": 244, "CaliAngle": 0}
+{"cannyValMax": 150, "cannyValMin": 40, "thresholdValue": 60, "maskAngle": 0, "stdx": 253, "stdy": 197, "cx": 253.0, "cy": 197.0, "cw": 140, "ch": 250, "ix": 550, "iy": 180, "iw": 620, "ih": 345, "lx": 281, "ly": 340, "crin": 90, "crout": 180, "CaliAngle": 0}

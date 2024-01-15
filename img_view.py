@@ -9,19 +9,19 @@ import time
 from functools import partial
 
 import numpy as np
-from PySide2.QtCore import QObject, QThread
-from PySide2.QtWidgets import QApplication, QWidget, QFileDialog, QVBoxLayout
-from PySide2.QtUiTools import QUiLoader
-from PySide2 import QtWidgets
-from PySide2 import QtCore
-from PySide2 import QtGui
+from PySide6.QtCore import QObject, QThread
+from PySide6.QtWidgets import QApplication, QWidget, QFileDialog, QVBoxLayout
+from PySide6.QtUiTools import QUiLoader
+from PySide6 import QtWidgets
+from PySide6 import QtCore
+from PySide6 import QtGui
 import cv2
 import main as mx
 from datetime import datetime
 import json as js
 import os
-from PySide2.QtGui import *
-from PySide2.QtCore import *
+from PySide6.QtGui import *
+from PySide6.QtCore import *
 import pygame
 import threading
 import queue as qu

@@ -22,7 +22,6 @@ if __name__ == '__main__':
     My_ui.show()
     app.exec_()
 
-
 class algorithm():
     rcp = None
     uiloading = False
